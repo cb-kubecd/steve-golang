@@ -4,7 +4,7 @@
 replicaCount: 1
 image:
   repository: 10.3.242.38:5000/cb-kubecd/steve-golang
-  tag: 0.0.17
+  tag: 0.0.19
   pullPolicy: IfNotPresent
 service:
   name: steve-golang
