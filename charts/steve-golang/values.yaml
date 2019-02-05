@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: 10.3.242.38:5000/cb-kubecd/steve-golang
-  tag: 0.0.17
+  repository: 10.75.242.126:5000/cb-kubecd/steve-golang
+  tag: 0.0.31
   pullPolicy: IfNotPresent
 service:
   name: steve-golang
