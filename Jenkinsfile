@@ -51,7 +51,6 @@ pipeline {
       }
       steps {
         dir('/home/jenkins/go/src/github.com/cb-kubecd/steve-golang/charts/steve-golang') {
-          sh "jx step changelog --version v\$(cat ../../VERSION)"
 
           // release the helm chart
           sh "jx step helm release"
