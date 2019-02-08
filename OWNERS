@@ -1,6 +1,8 @@
 approvers:
 - jenkins-x-bot-test
 - agentgonzo
+- scherler
 reviewers:
 - jenkins-x-bot-test
 - agentgonzo
+- scherler
